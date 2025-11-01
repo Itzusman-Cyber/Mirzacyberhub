@@ -1,224 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirza Usman | Cybersecurity Specialist</title>
+    <title>Mirza Usman | Elite Cybersecurity & AI Specialist</title>
     <link rel="stylesheet" href="styles.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
-        rel="stylesheet">
-
-    <!-- Google Analytics (Free) - Replace YOUR_GA_ID with your actual Google Analytics ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'YOUR_GA_ID');
-    </script>
-
-    <!-- Alternative: StatCounter (Free) - Replace YOUR_PROJECT_ID and YOUR_SECURITY_CODE -->
-    <!-- <script type="text/javascript">
-        var sc_project=YOUR_PROJECT_ID; 
-        var sc_invisible=1; 
-        var sc_security="YOUR_SECURITY_CODE"; 
-    </script>
-    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Splash Screen -->
-    <div id="splashScreen" class="splash-screen active">
-        <!-- Mirza Usman Splash -->
-        <div class="splash-content" id="splash1">
-            <div class="splash-logo">
-                <div class="logo-ring"></div>
-                <div class="logo-ring"></div>
-                <div class="logo-ring"></div>
-                <div class="splash-text-main">&lt;cybersecurity_specialist/&gt;</div>
+    <!-- Cyber Grid Background -->
+    <div class="cyber-grid"></div>
+    <div class="cyber-particles"></div>
+    
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="cyber-logo">
+                <div class="logo-hexagon"></div>
+                <div class="logo-text">MU</div>
             </div>
-            <h1 class="splash-name">MIRZA USMAN</h1>
-            <div class="splash-role">$ Penetration Tester_</div>
-            <div class="splash-details">
-                <div class="detail-item">🔒 Network Security Expert</div>
-                <div class="detail-item">🤖 AI Engineer</div>
-                <div class="detail-item">⚡ J.A.R.V.I.S Creator</div>
-                <div class="detail-item">🛡️ Vulnerability Assessment</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
             </div>
-            <div class="splash-loading">
-                <div class="loading-bar"></div>
-                <div class="loading-text">Loading Profile...</div>
-            </div>
-        </div>
-
-        <!-- Sohail Munir Splash -->
-        <div class="splash-content" id="splash2">
-            <div class="splash-logo">
-                <div class="logo-ring"></div>
-                <div class="logo-ring"></div>
-                <div class="logo-ring"></div>
-                <div class="splash-text-main">&lt;mobile_device_specialist/&gt;</div>
-            </div>
-            <h1 class="splash-name">SOHAIL MUNIR</h1>
-            <div class="splash-role">$ Mobile Repair Expert_</div>
-            <div class="splash-details">
-                <div class="detail-item">📱 iPhone Unlocking</div>
-                <div class="detail-item">🔧 Software Recovery</div>
-                <div class="detail-item">🛠️ Hardware Repair</div>
-                <div class="detail-item">📲 iOS Diagnostics</div>
-            </div>
-            <div class="splash-loading">
-                <div class="loading-bar"></div>
-                <div class="loading-text">Loading Profile...</div>
-            </div>
+            <p class="loader-text">INITIALIZING SYSTEM...</p>
         </div>
     </div>
 
-    <!-- 3D Floating Particles -->
-    <div class="particles"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    </div>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-brand">[MIRZA]</div>
-        <div class="nav-links">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#team">team</a>
-            <a href="#skills">skills</a>
-            <a href="#jarvis">jarvis</a>
-            <a href="#projects">projects</a>
-            <a href="#contact">contact</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-name">MIRZA_USMAN</span>
+                <span class="logo-bracket">]</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#jarvis" class="nav-link">J.A.R.V.I.S</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
+        <div class="hero-container">
             <div class="hero-content">
-                <div class="tag">&lt;cybersecurity_specialist/&gt;</div>
-                <h1 class="title">
-                    <span>MIRZA</span>
-                    <span>USMAN</span>
-                </h1>
-                <div class="subtitle">
-                    <span class="prompt">$</span>
-                    <span id="typing"></span>
-                    <span class="cursor">_</span>
+                <div class="glitch-wrapper">
+                    <h1 class="hero-title glitch" data-text="MIRZA USMAN">MIRZA USMAN</h1>
                 </div>
-                <div class="roles">
-                    <span class="role">Penetration Tester</span>
-                    <span class="role">Network Security</span>
-                    <span class="role">AI Engineer</span>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor-blink">|</span>
                 </div>
-                <div class="cta">
-                    <a href="#contact" class="btn primary">Get In Touch →</a>
-                    <a href="#projects" class="btn secondary">View Work</a>
+                <p class="hero-description">
+                    Elite Cybersecurity Professional | Penetration Testing Expert | AI Systems Architect
+                </p>
+                <div class="hero-tags">
+                    <span class="tag">#PenetrationTesting</span>
+                    <span class="tag">#NetworkSecurity</span>
+                    <span class="tag">#AIEngineering</span>
+                    <span class="tag">#J.A.R.V.I.S_Creator</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>HIRE ME</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#jarvis" class="btn btn-secondary">
+                        <span>VIEW J.A.R.V.I.S</span>
+                    </a>
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="code-block">
-                    <div class="line"><span class="kw">class</span> <span class="cls">Expert</span>:</div>
-                    <div class="line"> name = <span class="str">"Mirza Usman"</span></div>
-                    <div class="line"> role = <span class="str">"@Mirzacyberhub"</span></div>
-                    <div class="line"> skills = [<span class="str">"Security"</span>, <span class="str">"AI"</span>]
+                <div class="profile-frame">
+                    <div class="frame-corner tl"></div>
+                    <div class="frame-corner tr"></div>
+                    <div class="frame-corner bl"></div>
+                    <div class="frame-corner br"></div>
+                    <img src="profile.jpg" alt="Mirza Usman" class="profile-img">
+                    <div class="scan-line"></div>
+                </div>
+                <div class="stats-panel">
+                    <div class="stat-item">
+                        <span class="stat-value" data-target="500">0</span>
+                        <span class="stat-label">Security Audits</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" data-target="1000">0</span>
+                        <span class="stat-label">Vulnerabilities Found</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" data-target="158">0</span>
+                        <span class="stat-label">J.A.R.V.I.S Features</span>
                     </div>
                 </div>
-                <img src="profile.jpg" alt="Mirza Usman" class="profile">
             </div>
         </div>
     </section>
 
-    <!-- Stats -->
-    <section class="stats">
-        <div class="container">
-            <div class="stat"><span class="num" data-target="500">0</span><span class="label">Security Audits</span>
-            </div>
-            <div class="stat"><span class="num" data-target="1000">0</span><span class="label">Vulnerabilities</span>
-            </div>
-            <div class="stat"><span class="num" data-target="50">0</span><span class="label">AI Projects</span></div>
-            <div class="stat"><span class="num" data-target="100">0</span><span class="label">Clients</span></div>
-        </div>
-    </section>
-
-    <!-- About -->
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">// About Me</h2>
-            <p class="lead">Elite cybersecurity professional specializing in penetration testing, network security, and
-                AI engineering.</p>
-            <div class="expertise">
-                <div class="item">▹ Advanced Penetration Testing</div>
-                <div class="item">▹ Network Security Architecture</div>
-                <div class="item">▹ AI/ML Security Systems</div>
-                <div class="item">▹ Security Tool Development</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team -->
-    <section id="team" class="team">
-        <div class="container">
-            <h2 class="section-title">// Our Team</h2>
-            <p class="lead">Meet the experts behind our success</p>
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="profile.jpg" alt="Mirza Usman" class="member-photo">
-                        <div class="member-overlay">
-                            <div class="member-social">
-                                <a href="mailto:Mirzacyberhubpro@gmail.com" class="social-link">📧</a>
-                                <a href="tel:+923017623503" class="social-link">📱</a>
-                            </div>
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                <span class="title-text">ABOUT_ME</span>
+                <div class="title-line"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm <span class="highlight">Mirza Usman</span>, an elite cybersecurity specialist with deep expertise in 
+                        penetration testing, network security, and AI engineering. Creator of <span class="highlight">J.A.R.V.I.S v3.3</span>, 
+                        the most advanced AI assistant for Windows with 158+ features.
+                    </p>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <div class="expertise-icon">🔐</div>
+                            <h3>Penetration Testing</h3>
+                            <p>Advanced vulnerability assessment and exploitation techniques</p>
                         </div>
-                    </div>
-                    <div class="member-info">
-                        <h3>Mirza Usman</h3>
-                        <p class="member-role">Cybersecurity Specialist</p>
-                        <p class="member-desc">Elite penetration tester and AI engineer specializing in network
-                            security, vulnerability assessment, and intelligent automation systems. Creator of
-                            J.A.R.V.I.S v3.3.</p>
-                        <div class="member-skills">
-                            <span>Penetration Testing</span>
-                            <span>Network Security</span>
-                            <span>AI Engineering</span>
-                            <span>Security Tools</span>
+                        <div class="expertise-item">
+                            <div class="expertise-icon">🌐</div>
+                            <h3>Network Security</h3>
+                            <p>Infrastructure hardening and security architecture design</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="profile2.jpg" alt="Sohail Munir" class="member-photo">
-                        <div class="member-overlay">
-                            <div class="member-social">
-                                <a href="mailto:contact@example.com" class="social-link">📧</a>
-                                <a href="tel:+92300000000" class="social-link">📱</a>
-                            </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon">🤖</div>
+                            <h3>AI Engineering</h3>
+                            <p>Machine learning systems and intelligent automation</p>
                         </div>
-                    </div>
-                    <div class="member-info">
-                        <h3>Sohail Munir</h3>
-                        <p class="member-role">Mobile Device Specialist</p>
-                        <p class="member-desc">Expert in mobile device repair and software recovery, specializing in
-                            iPhone unlocking, iOS troubleshooting, and advanced mobile diagnostics. Providing
-                            professional repair services with precision and care.</p>
-                        <div class="member-skills">
-                            <span>Mobile Repair</span>
-                            <span>Software Recovery</span>
-                            <span>iPhone Unlocking</span>
-                            <span>iOS Diagnostics</span>
+                        <div class="expertise-item">
+                            <div class="expertise-icon">⚡</div>
+                            <h3>Security Tools</h3>
+                            <p>Custom tool development and security automation</p>
                         </div>
                     </div>
                 </div>
@@ -226,69 +148,126 @@
         </div>
     </section>
 
-    <!-- Skills -->
+    <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">// Skills</h2>
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                <span class="title-text">TECHNICAL_SKILLS</span>
+                <div class="title-line"></div>
+            </h2>
             <div class="skills-grid">
-                <div class="skill-cat">
-                    <h3>Security</h3>
-                    <div class="skill"><span>Penetration Testing</span>
-                        <div class="bar">
-                            <div class="fill" style="width:95%"></div>
+                <div class="skill-category">
+                    <h3 class="category-title">SECURITY</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Penetration Testing</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="95"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill"><span>Network Security</span>
-                        <div class="bar">
-                            <div class="fill" style="width:92%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Network Security</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="92"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill"><span>Vulnerability Assessment</span>
-                        <div class="bar">
-                            <div class="fill" style="width:98%"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-cat">
-                    <h3>Programming</h3>
-                    <div class="skill"><span>Python</span>
-                        <div class="bar">
-                            <div class="fill" style="width:96%"></div>
-                        </div>
-                    </div>
-                    <div class="skill"><span>JavaScript</span>
-                        <div class="bar">
-                            <div class="fill" style="width:88%"></div>
-                        </div>
-                    </div>
-                    <div class="skill"><span>C/C++</span>
-                        <div class="bar">
-                            <div class="fill" style="width:85%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Vulnerability Assessment</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="98"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="skill-cat">
-                    <h3>AI/ML</h3>
-                    <div class="skill"><span>Deep Learning</span>
-                        <div class="bar">
-                            <div class="fill" style="width:91%"></div>
+                <div class="skill-category">
+                    <h3 class="category-title">PROGRAMMING</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>96%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="96"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>C/C++</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="85"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="skill"><span>NLP</span>
-                        <div class="bar">
-                            <div class="fill" style="width:89%"></div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">AI/ML</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Deep Learning</span>
+                                <span>91%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="91"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill"><span>Computer Vision</span>
-                        <div class="bar">
-                            <div class="fill" style="width:87%"></div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>NLP</span>
+                                <span>89%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="89"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Computer Vision</span>
+                                <span>87%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="87"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tools">
-                <span>Metasploit</span><span>Burp Suite</span><span>Nmap</span><span>Wireshark</span>
-                <span>Kali Linux</span><span>TensorFlow</span><span>PyTorch</span><span>Docker</span>
+            <div class="tools-section">
+                <h3 class="tools-title">TOOLS & TECHNOLOGIES</h3>
+                <div class="tools-grid">
+                    <span class="tool-badge">Metasploit</span>
+                    <span class="tool-badge">Burp Suite</span>
+                    <span class="tool-badge">Nmap</span>
+                    <span class="tool-badge">Wireshark</span>
+                    <span class="tool-badge">Kali Linux</span>
+                    <span class="tool-badge">TensorFlow</span>
+                    <span class="tool-badge">PyTorch</span>
+                    <span class="tool-badge">Docker</span>
+                    <span class="tool-badge">Kubernetes</span>
+                    <span class="tool-badge">AWS</span>
+                </div>
             </div>
         </div>
     </section>
@@ -296,423 +275,375 @@
     <!-- JARVIS Section -->
     <section id="jarvis" class="jarvis">
         <div class="container">
-            <h2 class="section-title">// J.A.R.V.I.S v3.3</h2>
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                <span class="title-text">J.A.R.V.I.S_v3.3</span>
+                <div class="title-line"></div>
+            </h2>
             <div class="jarvis-intro">
-                <h3>Just A Rather Very Intelligent System - Windows Edition</h3>
-                <p>The most comprehensive AI assistant for Windows with 158+ features. Advanced offline machine
-                    learning, voice integration, complete system automation, and deep Windows integration. A
-                    revolutionary system combining cybersecurity tools with intelligent automation and productivity
-                    enhancement.</p>
-                <div class="jarvis-quick-stats">
-                    <div class="quick-stat"><span class="stat-num">158+</span><span class="stat-text">Total
-                            Features</span></div>
-                    <div class="quick-stat"><span class="stat-num">v3.3.0</span><span class="stat-text">Latest
-                            Version</span></div>
-                    <div class="quick-stat"><span class="stat-num">Win 10/11</span><span
-                            class="stat-text">Platform</span></div>
-                    <div class="quick-stat"><span class="stat-num">✅</span><span class="stat-text">Production
-                            Ready</span></div>
+                <p class="jarvis-tagline">Just A Rather Very Intelligent System</p>
+                <p class="jarvis-description">
+                    The most comprehensive AI assistant for Windows with <span class="highlight">158+ features</span>. 
+                    Advanced offline machine learning, voice integration, complete system automation, and deep Windows integration.
+                </p>
+                <div class="agi-highlight">
+                    <h3>🧠 AGI CORE v5.0 - PROMETHEUS</h3>
+                    <p>Revolutionary Artificial General Intelligence with human-level comprehension and self-evolution capabilities</p>
                 </div>
             </div>
-
-            <div class="jarvis-categories">
-                <h3 class="features-title">Feature Categories (158+ Total)</h3>
-                <div class="category-grid">
-                    <div class="category-card">
-                        <div class="category-icon">🪟</div>
-                        <h4>Windows System Control</h4>
-                        <p class="category-count">27 Features</p>
-                        <ul class="category-list">
-                            <li>Control Panel & Device Manager</li>
-                            <li>Volume & Brightness Control</li>
-                            <li>Battery Health & Status</li>
-                            <li>Network & IP Management</li>
-                            <li>Clipboard Operations</li>
-                            <li>Night Light & Themes</li>
-                            <li>Windows Update & Activation</li>
-                            <li>PowerShell & CMD Execution</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">📂</div>
-                        <h4>File Operations</h4>
-                        <p class="category-count">14 Features</p>
-                        <ul class="category-list">
-                            <li>File Explorer Integration</li>
-                            <li>Advanced File Search</li>
-                            <li>ZIP Compression & Extraction</li>
-                            <li>Folder Size Calculator</li>
-                            <li>Hidden Files & Extensions</li>
-                            <li>Rename, Move, Copy Operations</li>
-                            <li>Screenshot Capture</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🧹</div>
-                        <h4>Cleaning & Performance</h4>
-                        <p class="category-count">13 Features</p>
-                        <ul class="category-list">
-                            <li>Disk Cleanup & Defragmentation</li>
-                            <li>Browser Cache Clearing</li>
-                            <li>DNS & Prefetch Flushing</li>
-                            <li>SSD Optimization (TRIM)</li>
-                            <li>Disk Health Checking</li>
-                            <li>System File Repair (SFC/DISM)</li>
-                            <li>Performance & Resource Monitor</li>
-                            <li>Startup Impact Analysis</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🌐</div>
-                        <h4>Advanced Networking</h4>
-                        <p class="category-count">22 Features</p>
-                        <ul class="category-list">
-                            <li>Internet Speed Testing</li>
-                            <li>DNS Server Management</li>
-                            <li>IP Release & Renew</li>
-                            <li>Ping, Traceroute, ARP Table</li>
-                            <li>Wi-Fi Password Viewer</li>
-                            <li>Port Scanner & Checker</li>
-                            <li>WHOIS & IP Geolocation</li>
-                            <li>SSL Certificate Info</li>
-                            <li>Network Traffic Monitoring</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🎨</div>
-                        <h4>Personalization</h4>
-                        <p class="category-count">9 Features</p>
-                        <ul class="category-list">
-                            <li>Wallpaper & Lock Screen</li>
-                            <li>Light/Dark/Custom Themes</li>
-                            <li>Accent Color Customization</li>
-                            <li>Taskbar Auto-hide</li>
-                            <li>Transparency Effects</li>
-                            <li>Cursor Style Changes</li>
-                            <li>High Contrast Mode</li>
-                            <li>Desktop Icon Toggle</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🔒</div>
-                        <h4>Security & Privacy</h4>
-                        <p class="category-count">11 Features</p>
-                        <ul class="category-list">
-                            <li>Windows Defender Scanning</li>
-                            <li>Firewall Rule Management</li>
-                            <li>Camera & Microphone Control</li>
-                            <li>App Permissions Manager</li>
-                            <li>Credential Manager Access</li>
-                            <li>Remote Access Control</li>
-                            <li>Windows Hello Setup</li>
-                            <li>Active Login Monitoring</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">♿</div>
-                        <h4>Accessibility</h4>
-                        <p class="category-count">5 Features</p>
-                        <ul class="category-list">
-                            <li>Screen Magnifier</li>
-                            <li>Narrator (Text-to-Speech)</li>
-                            <li>On-Screen Keyboard</li>
-                            <li>Sticky Keys</li>
-                            <li>Speech Recognition</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🧠</div>
-                        <h4>Intelligence & AI</h4>
-                        <p class="category-count">11 Features</p>
-                        <ul class="category-list">
-                            <li>Emotion & Tone Detection</li>
-                            <li>Multi-language Translation</li>
-                            <li>Dictionary & Spell Check</li>
-                            <li>Currency Conversion</li>
-                            <li>World Clock & Weather</li>
-                            <li>RSS Feed Reader</li>
-                            <li>Google Trends Analysis</li>
-                            <li>DNS Leak Testing</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">📅</div>
-                        <h4>Productivity Tools</h4>
-                        <p class="category-count">7 Features</p>
-                        <ul class="category-list">
-                            <li>Alarm System with Messages</li>
-                            <li>Daily Task Planner</li>
-                            <li>Sticky Notes</li>
-                            <li>Clipboard History Manager</li>
-                            <li>QR Code Generator</li>
-                            <li>Alarm Management</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🎬</div>
-                        <h4>Screen Recording</h4>
-                        <p class="category-count">4 Features</p>
-                        <ul class="category-list">
-                            <li>Screen Recording with Audio</li>
-                            <li>Recording Control (Start/Stop)</li>
-                            <li>Recording Status Monitor</li>
-                            <li>Recording Library Manager</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🗃️</div>
-                        <h4>File Manager</h4>
-                        <p class="category-count">9 Features</p>
-                        <ul class="category-list">
-                            <li>Create Files with Content</li>
-                            <li>Create & Delete Folders</li>
-                            <li>List Directory Contents</li>
-                            <li>Rename Files & Folders</li>
-                            <li>Copy & Move Operations</li>
-                            <li>File Information Retrieval</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">🎧</div>
-                        <h4>Voice Emotion Analysis</h4>
-                        <p class="category-count">4 Features</p>
-                        <ul class="category-list">
-                            <li>Voice Emotion Detection</li>
-                            <li>Sentiment Analysis</li>
-                            <li>Stress Level Detection</li>
-                            <li>Emotion History Tracking</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">⚙️</div>
-                        <h4>Command Automation</h4>
-                        <p class="category-count">6 Features</p>
-                        <ul class="category-list">
-                            <li>Command Sequence Execution</li>
-                            <li>Batch Command Processing</li>
-                            <li>Script Creation & Saving</li>
-                            <li>Saved Script Execution</li>
-                            <li>Script Library Management</li>
-                            <li>Parallel Command Execution</li>
-                        </ul>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-icon">💻</div>
-                        <h4>Additional Capabilities</h4>
-                        <p class="category-count">16+ Features</p>
-                        <ul class="category-list">
-                            <li>Browser Control & Automation</li>
-                            <li>Web Form Filling</li>
-                            <li>WhatsApp Messaging</li>
-                            <li>Macro Recording & Playback</li>
-                            <li>VS Code Integration</li>
-                            <li>Code Generation & Debugging</li>
-                            <li>OCR & Screen Analysis</li>
-                            <li>System Notifications</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="jarvis-tech">
-                <h3>Core Technologies & Architecture</h3>
-                <div class="tech-grid">
-                    <div class="tech-item">
-                        <h4>Thompson Sampling</h4>
-                        <p>Multi-armed bandit algorithm for optimal action selection and decision making</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>K-Means Clustering</h4>
-                        <p>Automatically groups similar commands and learns usage patterns</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Sentence Transformers</h4>
-                        <p>Semantic understanding with 85%+ accuracy for natural language processing</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>DBSCAN</h4>
-                        <p>Density-based clustering for automatic pattern discovery and anomaly detection</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Contextual Bandits</h4>
-                        <p>Context-aware decision making that adapts to user behavior and preferences</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Meta-Learning</h4>
-                        <p>Learn how to learn faster - improves performance with each interaction</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>LiveKit Agents</h4>
-                        <p>Real-time voice communication and agent orchestration framework</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Google Gemini AI</h4>
-                        <p>Advanced language model for natural conversation and intelligent responses</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Windows API Integration</h4>
-                        <p>Deep integration with Windows using PyWin32, pycaw, and native APIs</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Offline Learning</h4>
-                        <p>Local SQLite database for privacy-focused learning without cloud dependency</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Emotion Detection</h4>
-                        <p>Voice and text analysis for understanding user sentiment and stress levels</p>
-                    </div>
-                    <div class="tech-item">
-                        <h4>Watchdog Service</h4>
-                        <p>Auto-recovery system ensuring 24/7 stable operation with network monitoring</p>
-                    </div>
-                </div>
-            </div>
-
             <div class="jarvis-stats">
-                <div class="jarvis-stat">
-                    <div class="stat-value">158+</div>
-                    <div class="stat-label">Total Features</div>
+                <div class="jarvis-stat-card">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-number">158+</div>
+                    <div class="stat-text">Total Features</div>
                 </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">90%+</div>
-                    <div class="stat-label">Command Recognition</div>
+                <div class="jarvis-stat-card">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-number">&lt;500ms</div>
+                    <div class="stat-text">Response Time</div>
                 </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">&lt;500ms</div>
-                    <div class="stat-label">Response Time</div>
+                <div class="jarvis-stat-card">
+                    <div class="stat-icon">🧠</div>
+                    <div class="stat-number">90%+</div>
+                    <div class="stat-text">Accuracy</div>
                 </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">200-400MB</div>
-                    <div class="stat-label">RAM Usage</div>
-                </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">2-5%</div>
-                    <div class="stat-label">CPU Idle Usage</div>
-                </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">1-3s</div>
-                    <div class="stat-label">Startup Time</div>
-                </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">24/7</div>
-                    <div class="stat-label">Stable Operation</div>
-                </div>
-                <div class="jarvis-stat">
-                    <div class="stat-value">100%</div>
-                    <div class="stat-label">Privacy Protected</div>
+                <div class="jarvis-stat-card">
+                    <div class="stat-icon">🔄</div>
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-text">Uptime</div>
                 </div>
             </div>
 
-            <div class="jarvis-usage">
-                <h3>Usage Examples</h3>
-                <div class="usage-grid">
-                    <div class="usage-category">
-                        <h4>System Control</h4>
-                        <code>"Jarvis, open Control Panel"</code>
-                        <code>"Jarvis, set volume to 50"</code>
-                        <code>"Jarvis, set brightness to 70"</code>
-                        <code>"Jarvis, check battery status"</code>
+            <div class="features-container">
+                <div class="feature-category">
+                    <div class="category-header">
+                        <span class="category-icon">🪟</span>
+                        <h3>Windows System Control</h3>
+                        <span class="feature-count">27 Features</span>
                     </div>
-                    <div class="usage-category">
-                        <h4>File Operations</h4>
-                        <code>"Jarvis, create folder MyProject"</code>
-                        <code>"Jarvis, search for document.pdf"</code>
-                        <code>"Jarvis, compress this folder"</code>
-                        <code>"Jarvis, empty recycle bin"</code>
+                    <ul class="feature-list">
+                        <li>Control Panel & Device Manager</li>
+                        <li>Volume & Brightness Control</li>
+                        <li>Battery Health Monitoring</li>
+                        <li>Network & IP Management</li>
+                        <li>Clipboard Operations</li>
+                        <li>Night Light & Theme Control</li>
+                    </ul>
+                </div>
+                <div class="feature-category">
+                    <div class="category-header">
+                        <span class="category-icon">🔐</span>
+                        <h3>Security & Privacy</h3>
+                        <span class="feature-count">11 Features</span>
                     </div>
-                    <div class="usage-category">
-                        <h4>Network Tools</h4>
-                        <code>"Jarvis, test my internet speed"</code>
-                        <code>"Jarvis, ping google.com"</code>
-                        <code>"Jarvis, show Wi-Fi password"</code>
-                        <code>"Jarvis, flush DNS cache"</code>
+                    <ul class="feature-list">
+                        <li>Windows Defender Scanning</li>
+                        <li>Firewall Rule Management</li>
+                        <li>Camera & Microphone Control</li>
+                        <li>App Permissions Manager</li>
+                        <li>Credential Manager Access</li>
+                        <li>Remote Access Control</li>
+                    </ul>
+                </div>
+                <div class="feature-category">
+                    <div class="category-header">
+                        <span class="category-icon">🌐</span>
+                        <h3>Advanced Networking</h3>
+                        <span class="feature-count">22 Features</span>
                     </div>
-                    <div class="usage-category">
-                        <h4>Productivity</h4>
-                        <code>"Jarvis, set alarm for 7 AM"</code>
-                        <code>"Jarvis, translate 'Hello' to Urdu"</code>
-                        <code>"Jarvis, convert 100 USD to PKR"</code>
-                        <code>"Jarvis, generate QR code"</code>
+                    <ul class="feature-list">
+                        <li>Internet Speed Testing</li>
+                        <li>DNS Server Management</li>
+                        <li>Port Scanner & Checker</li>
+                        <li>WHOIS & IP Geolocation</li>
+                        <li>SSL Certificate Info</li>
+                        <li>Network Traffic Monitoring</li>
+                    </ul>
+                </div>
+                <div class="feature-category">
+                    <div class="category-header">
+                        <span class="category-icon">🧠</span>
+                        <h3>AI & Intelligence</h3>
+                        <span class="feature-count">11 Features</span>
                     </div>
-                    <div class="usage-category">
-                        <h4>Maintenance</h4>
-                        <code>"Jarvis, clean temp files"</code>
-                        <code>"Jarvis, run disk cleanup"</code>
-                        <code>"Jarvis, check disk health"</code>
-                        <code>"Jarvis, optimize SSD"</code>
+                    <ul class="feature-list">
+                        <li>Emotion & Tone Detection</li>
+                        <li>Multi-language Translation</li>
+                        <li>Voice Recognition</li>
+                        <li>Natural Language Processing</li>
+                        <li>Sentiment Analysis</li>
+                        <li>Context-Aware Responses</li>
+                    </ul>
+                </div>
+                <div class="feature-category">
+                    <div class="category-header">
+                        <span class="category-icon">📂</span>
+                        <h3>File Management</h3>
+                        <span class="feature-count">14 Features</span>
                     </div>
-                    <div class="usage-category">
-                        <h4>Security</h4>
-                        <code>"Jarvis, run virus scan"</code>
-                        <code>"Jarvis, lock computer"</code>
-                        <code>"Jarvis, disable camera access"</code>
-                        <code>"Jarvis, check firewall status"</code>
+                    <ul class="feature-list">
+                        <li>Advanced File Search</li>
+                        <li>ZIP Compression & Extraction</li>
+                        <li>Folder Size Calculator</li>
+                        <li>File Operations Automation</li>
+                        <li>Screenshot Capture</li>
+                        <li>Batch File Processing</li>
+                    </ul>
+                </div>
+                <div class="feature-category">
+                    <div class="category-header">
+                        <span class="category-icon">🧹</span>
+                        <h3>System Optimization</h3>
+                        <span class="feature-count">13 Features</span>
+                    </div>
+                    <ul class="feature-list">
+                        <li>Disk Cleanup & Defragmentation</li>
+                        <li>Browser Cache Clearing</li>
+                        <li>SSD Optimization (TRIM)</li>
+                        <li>System File Repair</li>
+                        <li>Performance Monitoring</li>
+                        <li>Startup Impact Analysis</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="agi-section">
+                <h3 class="agi-title">🧠 AGI CORE v5.0 - PROMETHEUS ARCHITECTURE</h3>
+                <p class="agi-description">
+                    Revolutionary Artificial General Intelligence system with 7 major subsystems working in harmony to achieve human-level comprehension and autonomous decision-making.
+                </p>
+                
+                <div class="agi-metrics">
+                    <div class="agi-metric">
+                        <div class="metric-label">Consciousness Level</div>
+                        <div class="metric-bar">
+                            <div class="metric-fill" style="width: 85%">85%</div>
+                        </div>
+                    </div>
+                    <div class="agi-metric">
+                        <div class="metric-label">Self-Awareness</div>
+                        <div class="metric-bar">
+                            <div class="metric-fill" style="width: 90%">90%</div>
+                        </div>
+                    </div>
+                    <div class="agi-metric">
+                        <div class="metric-label">Confidence</div>
+                        <div class="metric-bar">
+                            <div class="metric-fill" style="width: 100%">100%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agi-subsystems">
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">🎯</div>
+                        <h4>Unified Cognitive Framework</h4>
+                        <p>Domain-specialized reasoning with meta-reasoning monitor, short-term memory (100 items), and attention focus system</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">🧩</div>
+                        <h4>Multi-Layer Reasoning Engine</h4>
+                        <p>Short-term processor for instant decisions, long-term context for patterns, and meta-logic controller for quality evaluation</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">🕸️</div>
+                        <h4>Dynamic Knowledge Graph</h4>
+                        <p>Entity nodes with relationship edges, context maps, and external API enrichment from NVD, AlienVault OTX, Shodan, and more</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">🔄</div>
+                        <h4>Self-Evolving Algorithm</h4>
+                        <p>Performance tracking, algorithm evaluation, optimization proposals, and controlled self-modification</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">💭</div>
+                        <h4>Human-Level Comprehension</h4>
+                        <p>Tone analysis, emotion detection, sentiment analysis, intention detection, and empathetic response generation</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">🛡️</div>
+                        <h4>Safety & Ethics Governor</h4>
+                        <p>Action evaluation, ethics checking, harmful action blocking, privacy protection, and logic quarantine system</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">🤝</div>
+                        <h4>Multi-Agent Communication</h4>
+                        <p>Message bus architecture with 4 specialized sub-agents: Hermes (Logic), Aegis (Security), Athena (Code), Nyx (Emotion)</p>
+                    </div>
+                    <div class="subsystem-card">
+                        <div class="subsystem-icon">💬</div>
+                        <h4>Conversational Memory + Personality</h4>
+                        <p>5 personality modes (Professional, Friendly, Hacker, Mentor, Companion) with emotional continuity and sentiment trend analysis</p>
+                    </div>
+                </div>
+
+                <div class="agi-agents">
+                    <h4 class="agents-title">🕸️ SPECIALIZED SUB-AGENTS</h4>
+                    <div class="agents-grid">
+                        <div class="agent-card">
+                            <div class="agent-name">HERMES</div>
+                            <div class="agent-role">Logic & Reasoning</div>
+                            <p>Logical analysis, decision trees, pattern matching, and boolean logic evaluation</p>
+                        </div>
+                        <div class="agent-card">
+                            <div class="agent-name">AEGIS</div>
+                            <div class="agent-role">Security & Protection</div>
+                            <p>Threat detection, security validation, risk assessment, and vulnerability analysis</p>
+                        </div>
+                        <div class="agent-card">
+                            <div class="agent-name">ATHENA</div>
+                            <div class="agent-role">Code Generation</div>
+                            <p>Code synthesis, template generation, optimization, and multi-language support</p>
+                        </div>
+                        <div class="agent-card">
+                            <div class="agent-name">NYX</div>
+                            <div class="agent-role">Emotion & Personality</div>
+                            <p>Emotional intelligence, tone adaptation, sentiment analysis, and empathetic responses</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="learning-capabilities">
+                    <h4 class="learning-title">🎓 LEARNING CAPABILITIES</h4>
+                    <div class="learning-grid">
+                        <div class="learning-item">
+                            <span class="learning-icon">✅</span>
+                            <div>
+                                <strong>User Habit Learning</strong>
+                                <p>Command frequency tracking, time-based patterns, context-aware predictions</p>
+                            </div>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">✅</span>
+                            <div>
+                                <strong>Error Learning</strong>
+                                <p>Automatic error analysis, solution generation, pattern recognition</p>
+                            </div>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">✅</span>
+                            <div>
+                                <strong>Performance Optimization</strong>
+                                <p>Success rate tracking, execution time monitoring, bottleneck identification</p>
+                            </div>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">✅</span>
+                            <div>
+                                <strong>Knowledge Accumulation</strong>
+                                <p>Fact storage, event recording, preference learning, relationship mapping</p>
+                            </div>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">✅</span>
+                            <div>
+                                <strong>Self-Improvement</strong>
+                                <p>Code mutation tracking, algorithm evolution, quality assessment</p>
+                            </div>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">✅</span>
+                            <div>
+                                <strong>Persistent Memory</strong>
+                                <p>SQLite-based cross-session memory, conversation recall, user profile storage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-stack">
+                <h3 class="tech-title">CORE TECHNOLOGIES</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <h4>Thompson Sampling</h4>
+                        <p>Multi-armed bandit algorithm for optimal decision making</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>K-Means Clustering</h4>
+                        <p>Automatic pattern recognition and command grouping</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Sentence Transformers</h4>
+                        <p>85%+ accuracy in natural language understanding</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Google Gemini AI</h4>
+                        <p>Advanced language model for intelligent responses</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>LiveKit Agents</h4>
+                        <p>Real-time voice communication framework</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Meta-Learning</h4>
+                        <p>Continuous improvement with each interaction</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>DBSCAN</h4>
+                        <p>Density-based clustering for pattern discovery and anomaly detection</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Contextual Bandits</h4>
+                        <p>Context-aware decision making adapting to user behavior</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Offline Learning</h4>
+                        <p>Local SQLite database for privacy-focused learning</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">// Other Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <h3>Security Framework</h3>
-                    <p>Automated penetration testing and vulnerability assessment</p>
-                    <div class="tags"><span>Python</span><span>Security</span><span>Automation</span></div>
-                </div>
-                <div class="project">
-                    <h3>AI Malware Detector</h3>
-                    <p>Deep learning model for malware detection</p>
-                    <div class="tags"><span>TensorFlow</span><span>Security</span><span>AI</span></div>
-                </div>
-                <div class="project">
-                    <h3>Network Monitor</h3>
-                    <p>Real-time network traffic analysis system</p>
-                    <div class="tags"><span>Python</span><span>Networking</span><span>Security</span></div>
-                </div>
-                <div class="project">
-                    <h3>DNS Management Suite</h3>
-                    <p>Advanced DNS configuration and monitoring tools</p>
-                    <div class="tags"><span>Python</span><span>DNS</span><span>Networking</span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">// Contact</h2>
-            <div class="contact-grid">
-                <div class="info">
-                    <h3>Let's Work Together</h3>
-                    <div class="detail"><strong>Email:</strong> <a
-                            href="mailto:Mirzacyberhubpro@gmail.com">Mirzacyberhubpro@gmail.com</a></div>
-                    <div class="detail"><strong>Phone:</strong> <a href="tel:+923000892114">+92 3017623503</a></div>
-                    <div class="detail"><strong>Location:</strong> Available Worldwide</div>
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                <span class="title-text">GET_IN_TOUCH</span>
+                <div class="title-line"></div>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        Looking for a cybersecurity expert or interested in J.A.R.V.I.S? 
+                        Let's connect and discuss how I can help secure your systems.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:Mirzacyberhubpro@gmail.com">Mirzacyberhubpro@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🌐</div>
+                            <div class="contact-text">
+                                <span class="contact-label">Handle</span>
+                                <span>@Mirzacyberhub</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <form id="form">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="text" placeholder="Subject" required>
-                    <textarea placeholder="Message" rows="5" required></textarea>
-                    <button type="submit" class="btn primary">Send Message →</button>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>SEND MESSAGE</span>
+                        <div class="btn-glow"></div>
+                    </button>
                 </form>
             </div>
         </div>
@@ -722,52 +653,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div>[MIRZA] Elite Cybersecurity & AI Engineering</div>
-                <div>© 2025 Mirza Usman. All rights reserved.</div>
-            </div>
-
-            <!-- Visitor Analytics Display -->
-            <div class="visitor-stats">
-                <div class="visitor-item">
-                    <span class="visitor-icon">👁️</span>
-                    <span class="visitor-label">Total Visits:</span>
-                    <span class="visitor-count" id="totalVisits">Loading...</span>
-                </div>
-                <div class="visitor-item">
-                    <span class="visitor-icon">🌍</span>
-                    <span class="visitor-label">Your IP:</span>
-                    <span class="visitor-count" id="userIP">Loading...</span>
-                </div>
-                <div class="visitor-item">
-                    <span class="visitor-icon">📍</span>
-                    <span class="visitor-label">Location:</span>
-                    <span class="visitor-count" id="userLocation">Loading...</span>
-                </div>
-                <div class="visitor-item">
-                    <span class="visitor-icon">🕐</span>
-                    <span class="visitor-label">Last Visit:</span>
-                    <span class="visitor-count" id="lastVisit">First time!</span>
-                </div>
-            </div>
-
-            <!-- Free Visitor Counter Badges -->
-            <div class="counter-badges">
-                <!-- Flag Counter (Free) -->
-                <a href="https://info.flagcounter.com/YOUR_CODE" target="_blank">
-                    <img src="https://s01.flagcounter.com/count2/YOUR_CODE/bg_000000/txt_FF0000/border_FF0000/columns_4/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
-                        alt="Flag Counter" border="0">
-                </a>
-
-                <!-- Alternative: Simple Hit Counter -->
-                <div class="hit-counter">
-                    <img src="https://hitwebcounter.com/counter/counter.php?page=YOUR_PAGE_ID&style=0007&nbdigits=6&type=page&initCount=0"
-                        title="Visitor Counter" Alt="web counter" border="0" />
-                </div>
+                <p>&copy; 2024 Mirza Usman. All rights reserved.</p>
+                <p class="footer-tagline">Elite Cybersecurity & AI Engineering</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
